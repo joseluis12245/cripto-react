@@ -1,0 +1,12 @@
+# Visual Studio Code settings
+.vscode/
+
+# Text editor backup files
+*~
+
+# NodeJS files created by web build process
+node_modules/
+node/
+
+# MacOS
+.DS_Store
