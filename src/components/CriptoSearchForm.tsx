@@ -1,4 +1,5 @@
 import React from "react";
+import { currencies } from "../data"
 
 export default function CriptoSearchForm() {
   return (
@@ -7,6 +8,9 @@ export default function CriptoSearchForm() {
         <label htmlFor="currenty">Currency</label>
         <select name="currency" id="currency">
           <option value="">-- Please Select --</option>
+          {currencies.map(currency=> (
+            <option key={currency.code} value={currency.code}>{currency.name}</option>
+          ))}
         </select>
       </div>
 
