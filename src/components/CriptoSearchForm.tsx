@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 import { useCryptoStore } from "../store";
 import { currencies } from "../data"
 import { Pair } from "../types";
