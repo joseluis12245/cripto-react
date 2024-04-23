@@ -1,3 +1,16 @@
+# Crypto Quote Developed with React + TypeScript + Vite + ZOD + Zustand
+
+This app was made with react and the next structure:
+
+- Plain CSS file implemented for styling.
+- Creation of functional components.
+- Managing of props. 
+- Using hooks such as useEffect, useMemo, useState.
+- Store with zustand to manage the API's requests.
+- Creating of schemas with ZOD for the management of the response of the requests. 
+
+Published website: https://6625f151edda6b4e0e82dfef--cute-arithmetic-3f27c3.netlify.app/
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
